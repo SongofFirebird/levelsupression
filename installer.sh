@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo sed -i '$iiwconfig wlan0 power off' /etc/rc.local
+
 sudo apt-get install pulseaudio
 sudo apt install swh-plugins
 sudo apt-get install pavucontrol
