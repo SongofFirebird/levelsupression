@@ -5,5 +5,5 @@ The plan was to make the installation so easy as possible. The commands
 install pulse audio, some plugins and configurate the pulseaudio
 control file. Also it turns off the power management.
 
-It is very easy tu use, just download it with "git clone 'git-link' " and
+It is very easy to use, just download the script with "git clone 'git-link' " and
 run it with "sudo bash ./levelsupression/installer.sh".
