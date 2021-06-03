@@ -17,3 +17,5 @@ echo control=1,20,500,-30,2,5,13,3 >> /etc/pulse/default.pa
 echo .fail >> /etc/pulse/default.pa
 echo .endif >> /etc/pulse/default.pa
 echo set-default-sink compressor-Stereo >> /etc/pulse/default.pa
+
+sudo reboot
