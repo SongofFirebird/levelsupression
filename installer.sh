@@ -2,9 +2,9 @@
 
 sudo sed -i '$iiwconfig wlan0 power off' /etc/rc.local
 
-sudo apt-get install pulseaudio
+sudo apt-get install pulseaudio -y
 sudo apt install swh-plugins -y
-sudo apt-get install pavucontrol
+sudo apt-get install pavucontrol -y
 
 sudo chmod 777 /etc/pulse/default.pa
 
