@@ -1,6 +1,10 @@
 #!/bin/bash
 
 sudo sed -i '$iiwconfig wlan0 power off' /etc/rc.local
+sudo sed -i '$alsaloop' /etc/rc.local
+
+echo force_eeprom_read=0 >> /boot/config.txt
+echo dtoverlay=hifiberry-dacplusadc >> /boot/config.txt
 
 sudo apt-get install pulseaudio -y
 sudo apt install swh-plugins -y
